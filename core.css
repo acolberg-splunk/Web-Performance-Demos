@@ -1,0 +1,102 @@
+
+        body {
+            background: url(andreu-lacondeguy-2013.jpg);
+            color: #131C28;
+            margin: 0;
+            padding: 80px 0 0 0;
+        }
+
+        .content:before,
+        .content:after {
+            content: " ";
+            display: table;
+        }
+
+        .content:after {
+            clear: both;
+        }
+
+        .header {
+            background: #ddd;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            -webkit-transition: all 1s;
+        }
+            .header .intro,
+            .header .controls {
+                padding: 10px;
+                height: 30px;
+                line-height: 40px;
+            }
+            .header .controls {
+                background: #eee;
+                padding: 0 10px;
+                height: 30px;
+                line-height: 30px;
+            }
+
+        .header--offset .header {
+            top: -50px;
+        }
+
+        .sample-comment {
+            width: 500px;
+            background: #fff;
+            border: 5px solid #131C28;
+            min-height: 200px;
+            padding: 20px;
+            margin: 20px;
+            float: right;
+        }
+
+        .comment {
+            width: 300px;
+            float: left;
+            background: #fff;
+            border: 5px solid #6A798E;
+            min-height: 400px;
+            padding: 20px;
+            margin: 20px;
+            -webkit-transition: border-radius 1s;
+        }
+
+            .comment:hover {
+                box-shadow: 0 15px 100px rgba(0,0,0,1), 0 15px 20px rgba(0,0,0,0.6), 0 5px 10px rgba(0,0,0,0.4);
+                border-radius: 50px;
+            }
+
+        .comment-inner {
+        }
+
+        .footer {
+            background: #131C28;
+            padding: 20px;
+        }
+
+        .shadow {
+            box-shadow: 0 5px 100px rgba(0,0,0,1), 0 5px 20px rgba(0,0,0,0.6), 0 10px 10px rgba(0,0,0,0.4);
+        }
+
+        .bg-fixed {
+            background-attachment: fixed;
+        }
+
+        .radius {
+            border-radius: 100px;
+        }
+
+        .translatez {
+            -webkit-transform: translateZ(0);
+        }
+
+        .scroll-cover {
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          position: fixed;
+          pointer-events: auto !important;
+          z-index: 10000;
+        }
