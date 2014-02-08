@@ -1,6 +1,10 @@
 #Web-Performance-Demos
+Sample page that can be used to demonstrate rendering performance issues.
 
-##Web Performance Demos Show:
+##Demo
+[View demo](http://arminsolecki.com/demos/Web-Performance-Demos/)
+
+##Includes following issues/solutions:
 
 1. translateZ hack
 2. expensive paints
