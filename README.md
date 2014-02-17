@@ -2,7 +2,7 @@
 Sample page that can be used to demonstrate rendering performance issues.
 
 ##Demo
-[View demo](http://arminsolecki.com/demos/Web-Performance-Demos/)
+[View demo](http://arminsolecki.github.io/Web-Performance-Demos/)
 
 ##Includes following issues/solutions:
 
